@@ -486,6 +486,15 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   border-color: #6ABE45;
   border-radius: 10px;
   padding: 15px 30px;
+  cursor: pointer;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+  transition: .25s all ease-out;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  background-color: #487f30;
+  border-color: #487f30;
+  transform: translateY(5%);
 }
 
 .form-control {
