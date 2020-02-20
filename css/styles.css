@@ -138,6 +138,15 @@ h2 span {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
 }
 
+.section-3 .section-3-span-text {
+  color: #073B09;
+}
+
+.section-3 .section-3-span-text-sm {
+  color: #073B09;
+  font-size: 16px;
+}
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: #8916AB;

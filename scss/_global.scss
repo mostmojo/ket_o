@@ -134,4 +134,13 @@ h2 {
 			font-weight: 700;
 			@include heading-font;
 	}
+
+	.section-3-span-text {
+		color: #073B09;
+	}
+
+	.section-3-span-text-sm {
+		color: #073B09;
+		font-size: 16px;
+	}
 }
