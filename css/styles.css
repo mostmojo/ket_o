@@ -116,6 +116,28 @@ h2 span {
   padding-top: 40px;
 }
 
+.section-3 {
+  padding: 0;
+  background: #60bc47;
+  background: linear-gradient(90deg, #60bc47 0%, #a4ce2b 35%, #9dca2e 100%);
+}
+
+.section-3 .section-inner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-3 .section-inner p {
+  color: #FFF;
+}
+
+.section-3 h2 {
+  color: #FFF;
+  font-weight: 700;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+}
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: #8916AB;
