@@ -24,7 +24,7 @@
 
 // /* ----------- Timer ----------- */
 
-function startTimer(duration, display) {
+function timerBoot(duration, display) {
     var timer = duration,
         minutes, seconds;
     setInterval(function() {
@@ -40,8 +40,8 @@ function startTimer(duration, display) {
 }
 window.onload = function() {
     var tenMinutes = 60 * 10,
-        display = document.querySelector('#stopwatch');
-    startTimer(tenMinutes, display);
+        display = document.querySelector('#countdown');
+    timerBoot(tenMinutes, display);
 };
 
 // /* ---------- Country state -----------*/
