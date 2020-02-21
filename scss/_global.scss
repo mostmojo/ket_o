@@ -57,7 +57,11 @@ section {
     }
 }
 
-
+li {
+	list-style-type: none;
+	font-size: 10px;
+	color: grey;
+}
 
 
 h2 {
@@ -160,4 +164,8 @@ h2 {
 .section-5 {
 	padding: 2rem 0;
 	background: rgb(247, 247, 247);
+}
+
+.footer-text {
+	font-size: 12px;
 }
