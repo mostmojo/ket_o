@@ -342,6 +342,10 @@ label {
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 732px) {
+  background: none;
+}
+
 section.cta {
   position: relative;
   padding: 250px 0;

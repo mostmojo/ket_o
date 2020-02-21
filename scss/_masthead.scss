@@ -3,12 +3,11 @@ header.masthead {
     position: relative;
     padding-top: 45px;
     width: 100%;
-
     color: white;
     background: url('../images/model.jpg') no-repeat top right;
-    
+
     @media (min-width: 992px) {
-        height: 700px;
+				height: 700px;
     }
 
     .header-content {
@@ -45,3 +44,6 @@ label {
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 732px) {
+	background: none;
+}
