@@ -22,7 +22,7 @@
 //     });
 // };
 
-// /* ----------- Timer ----------- */
+// /* ----------- Timer to boot the 10 minute countdown ----------- */
 
 function timerBoot(duration, display) {
 	let timer = duration;
@@ -46,7 +46,7 @@ window.onload = () => {
 };
 
 // /* ---------- Country state -----------*/
-// <script type="text/javascript">
+
 //   $(document).ready(function () {
 //     initializeCountryState('country', 'state', 'state-container', 'zip-code', 'class="form-control" data-toggle="tooltip" data-placement="auto left" title="State" data-validation="required"',false);
 //     $('#country').val("CY").change()
@@ -58,7 +58,6 @@ window.onload = () => {
 //           });
 
 //       });
-// </script>
 
 
 // /*---------- Countries ----------*/
