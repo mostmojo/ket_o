@@ -39,9 +39,9 @@ function startTimer(duration, display) {
     }, 1000);
 }
 window.onload = function() {
-    var fiveMinutes = 60 * 5,
+    var tenMinutes = 60 * 10,
         display = document.querySelector('#stopwatch');
-    startTimer(fiveMinutes, display);
+    startTimer(tenMinutes, display);
 };
 
 /* ---------- Country state -----------*/
